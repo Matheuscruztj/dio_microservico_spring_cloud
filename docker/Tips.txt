@@ -1,0 +1,5 @@
+Search running process by port
+netstat -ano | findstr :<PORT>
+
+Kill process by PID
+taskkill /PID <PID> /F
