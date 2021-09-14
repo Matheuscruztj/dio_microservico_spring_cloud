@@ -1,0 +1,5 @@
+https://digitalinnovation.one/artigos/nao-encontra-entitymapper-no-arquivo-elasticsearchconfigjava-do-modulo-product-catalog-de-microservico
+
+https://digitalinnovation.one/artigos/solucao-microservicos-usando-spring-cloud
+
+https://www.elastic.co/guide/en/elasticsearch/reference/7.5/getting-started-install.html

@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.digitalinnovationone'
+group = 'digitalinnovation.one.experts.productcatalog'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -14,7 +14,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch:2.4.0'
+	implementation 'org.springframework.data:spring-data-elasticsearch:3.2.6.RELEASE'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
