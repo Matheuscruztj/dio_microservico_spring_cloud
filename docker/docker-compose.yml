@@ -3,14 +3,16 @@ version: '2'
 services:
   elasticsearch:
     container_name: 'elasticsearch'
+    restart: always
     image: elasticsearch:7.5.2
     ports:
       - 9200:9200
       - 9300:9300
     environment:
-      - discovery-type=single-node
+      - discovery.type=single-node
   redis:
     container_name: 'redis'
+    restart: always
     image: redis:3.0.1
     ports:
       - 6379:6379

@@ -1,4 +1,4 @@
-package com.digitalinnovationone.gateway.config;
+package digitalinnovation.one.experts.productcatalog.config;
 
 import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.context.annotation.Bean;
@@ -11,14 +11,13 @@ import org.springframework.data.elasticsearch.core.ElasticsearchEntityMapper;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "com.digitalinnovationone.gateway.repository")
+@EnableElasticsearchRepositories(basePackages = "digitalinnovation.one.experts.productcatalog.repository")
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
     @Override
     public RestHighLevelClient elasticsearchClient() {
-        ClientConfiguration clientConfiguration = ClientConfiguration.builder() //
-                .connectedTo("localhost:9200", "localhost:9300") //
+        ClientConfiguration clientConfiguration = ClientConfiguration.builder()
+                .connectedTo("localhost:9200", "localhost:9300")
                 .build();
-
         return RestClients.create(clientConfiguration).rest();
     }
 
