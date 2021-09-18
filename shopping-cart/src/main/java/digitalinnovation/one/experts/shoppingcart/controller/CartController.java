@@ -38,5 +38,4 @@ public class CartController {
     public void clear(@PathVariable("id") Integer id) {
         cartRepository.deleteById(id);
     }
-
 }

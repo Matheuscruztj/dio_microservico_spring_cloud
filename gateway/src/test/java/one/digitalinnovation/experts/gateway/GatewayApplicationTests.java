@@ -1,4 +1,4 @@
-package com.digitalinnovationone.gateway;
+package one.digitalinnovation.experts.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
