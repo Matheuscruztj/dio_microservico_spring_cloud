@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="product-catalog" target="11" />
+      <module name="product-catalog.main" target="11" />
+      <module name="product-catalog.test" target="11" />
+      <module name="product-catalog2" target="11" />
+      <module name="product-catalog2.main" target="11" />
+      <module name="product-catalog2.test" target="11" />
+      <module name="service-discovery" target="11" />
+      <module name="service-discovery.main" target="11" />
+      <module name="service-discovery.test" target="11" />
+      <module name="shopping-cart" target="11" />
+      <module name="shopping-cart.main" target="11" />
+      <module name="shopping-cart.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
